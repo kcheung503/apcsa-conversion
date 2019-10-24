@@ -9,15 +9,17 @@ public class apcsarighttriangle {
       final double YARD_TO_MI = 1760;
 
       System.out.print("Enter an origin unit: ");
-      char origin = char.nextChar();
+      char origin = in.nextChar();
 
       System.out.print("Enter a destination unit: ");
-      char origin = char.nextChar();
+      char destination = in.nextChar();
 
+      System.out.print("Enter a value: ");
+      double value = in.nextDouble();
 
+      double finalValue = value * origin;
 
-
-
+      System.out.println("There are " + destination + "in 2.0 miles.);
       in.close();
     }
 }
